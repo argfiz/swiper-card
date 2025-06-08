@@ -1,7 +1,7 @@
 const sliderCardsData = [
   {
-    nombre: "Pack - Emprendedor",
-    subtitulo: "Pack oportuno para los ",
+    nombre: "Pack - Pequeño",
+    subtitulo: "Pack oportuno para los emprendedores que inician su camino digital y quieren tener presencia en la web",
     img: "./assets/img/pack-s.jpg",
     precio: "$200.000 ARS",
     precioNota: "Precio Final",
@@ -18,8 +18,8 @@ const sliderCardsData = [
     ]
   },
   {
-    nombre: "Pack - Indecisos",
-    subtitulo: "Este pack ideal para los indecisos",
+    nombre: "Pack - Mediano",
+    subtitulo: "Este pack ideal para los indecisos y emprendedores en crecimiento que buscan una web más completa",
     img: "./assets/img/pack-m.jpg",
     precio: "$300.0000 ARS",
     precioNota: "Precio Final",
@@ -36,8 +36,8 @@ const sliderCardsData = [
     ]
   },
   {
-    nombre: "Pack - Empresa",
-    subtitulo: "Este pack perfecto para tu negocio",
+    nombre: "Pack - Grande",
+    subtitulo: "Este pack perfecto para tu negocio y para quienes buscan una web completa y profesional",
     img: "./assets/img/pack-g.jpg",
     precio: "$400.000 ARS",
     precioNota: "Precio Final",
