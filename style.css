@@ -35,9 +35,16 @@
     width: 100%;
     background: #fff; /* Fondo blanco */
     text-align: center;
-    border-bottom: 2px solid #1e88e5; /* Borde inferior con el color anterior */
 }
-
+.card__header--1 {
+    border-bottom: 3px solid #00bf62;
+}
+.card__header--2 {
+    border-bottom: 3px solid #4f9dff;
+}
+.card__header--3 {
+    border-bottom: 3px solid #fd3031;
+}
 .card__title {
     font-size: 1.2rem;
     font-weight: 700;
@@ -76,11 +83,19 @@
 
 .card__price span {
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 900;
     color: #1e88e5;
     display: block;
 }
-
+.card__price-1 span {
+    color: #00bf62;
+}
+.card__price-2 span {
+    color: #4f9dff;
+}
+.card__price-3 span {
+    color: #fd3031;
+}
 .card__price small {
     font-size: 0.95rem;
     color: #888;

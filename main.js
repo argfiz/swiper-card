@@ -58,18 +58,18 @@ const sliderCardsData = [
 // Renderiza las cartas en el swiper-wrapper
 function renderSlides() {
   const wrapper = document.querySelector('.swiper-wrapper');
-  wrapper.innerHTML = sliderCardsData.map(card => `
+  wrapper.innerHTML = sliderCardsData.map((card, idx) => `
     <div class="swiper-slide">
       <div class="card">
         <img src="${card.img}" alt="${card.nombre}" class="card__img" />
-        <div class="card__header">
+        <div class="card__header card__header--${idx + 1}">
             <h3 class="card__title">${card.nombre}</h3>
             <p class="card__sub">${card.subtitulo}</p>
         </div>
-            <ul class="card__items">
+        <ul class="card__items">
           ${card.items.map(item => `<li>${item}</li>`).join('')}
         </ul>
-        <div class="card__price">
+        <div class="card__price card__price-${idx + 1}">
           <span>${card.precio}</span>
           <small>${card.precioNota}</small>
         </div>
